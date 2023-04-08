@@ -32,7 +32,7 @@ h1 {
 
 .seccion-oscura {
   color: white;
-  background-color:#1b1b32;
+  background: radial-gradient(circle at 10% 20%, rgb(255, 12, 253) 0%, rgb(255, 241, 53) 90%);
 }
 .seccion-clara {
   color: black;
