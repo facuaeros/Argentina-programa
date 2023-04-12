@@ -2,7 +2,7 @@
 
 .navbar {
   padding: 2rem;
-  background-color:#f5f6f7;
+  
   
   
 }
@@ -29,16 +29,13 @@ h1 {
 
   
 }
-
-.seccion-oscura {
-  color: white;
-  background: linear-gradient(65.5deg, rgb(23, 205, 205) -15.1%, rgb(23, 25, 95) 71.5%);
+a{
+  color: grey;
 }
-.seccion-clara {
-  color: black;
-  background-color: white;
 
-}
+
+
+
 
 .seccion-titulo {
   font-size: 2rem;
@@ -48,7 +45,7 @@ h1 {
 
 .seccion-descripcion {
   font-size: 1.2rem;
-  color:#584e4e;
+ 
 
 }
 
@@ -61,13 +58,8 @@ h1 {
   margin: 20px;
   
 }
-.texto-negro {
-  color: black;
-}
 
-.texto-blanco {
-  color: white;
-}
+
 
 
 
@@ -75,7 +67,6 @@ h1 {
 
 /* Seccion hero*/
 .hero {
-  background: #ffffff;  /* fallback for old browsers */
   min-height: 450px;
   text-align: center;
 
@@ -102,7 +93,7 @@ h1 {
 
 .hero-principal h2 {
   font-size: 1.5rem;
-  color:#615151;
+  
 
 }
 
@@ -113,7 +104,8 @@ h1 {
 }
 
 .sobre-mi .contenedor {
-  max-width: 600px;
+  border: 5px solid #8080804d;
+  max-width: 800px;
   text-align: center;
 }
 
@@ -133,7 +125,10 @@ h1 {
 
 .experiencia .columna:hover {
   color: white;
-  background-color: #1b1b32;
+  background: #a8c0ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 }
 
@@ -141,8 +136,8 @@ h1 {
 
 .experiencia i{
   font-size: 2.5rem;
-  color: #7ade30;
-  background-color:#0a0a23;
+  color: #6c086c;
+  background-color:none;
   padding: 8px 19px;
   border-radius: 50%;
 }
@@ -231,7 +226,7 @@ h1 {
 }
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: rgb(13, 110, 253);
+  background-color: rgb(98, 66, 119);
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px white;
 }
@@ -298,22 +293,22 @@ h1 {
   justify-content:center;
   padding: 2px;
   margin: 10px;
-  border: 2px solid white;
+  border: 2px solid rgb(12, 12, 12);
   border-radius: 50%;
   transition: all 0.2s ease-in;
 
 }
 
 .iconos-redes-sociales i {
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 1.5rem;
   transition: all 0.2s ease-in;
 
 }
 
 .iconos-redes-sociales a:hover {
-  background-color: white;
-  border:2px solid rgb(13, 110 , 253) ;
+  background-color: rgb(154, 48, 184);
+  border:2px solid rgb(61, 61, 62) ;
 }
 
 .iconos-redes-sociales a:hover i {
@@ -323,7 +318,7 @@ h1 {
 
 .derechos-de-autor {
   font-size: 15px;
-  color: #aeaeae;
+  color: #0e0e0e;
   padding: 20px;
 
 }
