@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Contáctanos</h3>
+          <p class="text">
+            ¿Tienes alguna pregunta o comentario sobre nuestros productos o servicios? Nos encantaría escucharte. Por favor, completa el formulario de contacto a continuación y un miembro de nuestro equipo se comunicará contigo a la brevedad posible.
+            También puedes comunicarte con nosotros por teléfono o correo electrónico. Nuestros datos de contacto se encuentran en la parte inferior de esta página.
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <img src="img/email.png" class="icon" alt="" />
+              <p>rodrigueznfacundo@gmail.com</p>
+            </div>
+            <div class="information">
+              <img src="img/phone.png" class="icon" alt="" />
+              <p>11-26092551</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>Nuestras Redes :</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://twitter.com/" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.instagram.com/" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/facundo-nicolas-rodriguez-18a7ba218/" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="index.html" autocomplete="off">
+            <h3 class="title">Contact us</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" />
+              <label for="">Nombre</label>
+              <span>Nombre</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" />
+              <label for="">Telefono</label>
+              <span>Telefono</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="">Mensaje</label>
+              <span>Mensaje</span>
+            </div>
+            <input type="submit" value="Send" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
